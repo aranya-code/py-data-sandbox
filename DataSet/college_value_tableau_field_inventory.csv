@@ -1,0 +1,71 @@
+section,section_field_order,field,dtype,available_count,missing_count,percent_available,distinct_reported_values
+Institution identity,1,UNITID,int64,1934,0,100.0,1934
+Institution identity,2,INSTNM,object,1934,0,100.0,1921
+Institution identity,3,CITY,object,1934,0,100.0,1070
+Institution identity,4,STABBR,object,1934,0,100.0,54
+Institution identity,5,ZIP,string,1934,0,100.0,1868
+Institution identity,6,city_state_label,string,1934,0,100.0,1204
+Institution identity,7,LATITUDE,float64,1934,0,100.0,1917
+Institution identity,8,LONGITUDE,float64,1934,0,100.0,1916
+Institution and location filters,1,institution_control_label,string,1934,0,100.0,3
+Institution and location filters,2,institution_control_order,Int64,1934,0,100.0,3
+Institution and location filters,3,campus_status_label,string,1934,0,100.0,2
+Institution and location filters,4,campus_status_order,Int64,1934,0,100.0,2
+Institution and location filters,5,region_label,string,1934,0,100.0,10
+Institution and location filters,6,region_order,Int64,1934,0,100.0,10
+Institution and location filters,7,locale_type_label,string,1934,0,100.0,4
+Institution and location filters,8,locale_type_order,Int64,1934,0,100.0,4
+Institution and location filters,9,locale_detailed_label,string,1934,0,100.0,12
+Institution and location filters,10,locale_detailed_order,Int64,1934,0,100.0,12
+Institution and location filters,11,undergraduate_enrollment_primary,Int64,1934,0,100.0,1607
+Institution and location filters,12,undergraduate_enrollment_size_band,string,1934,0,100.0,5
+Institution and location filters,13,undergraduate_enrollment_size_band_order,Int64,1934,0,100.0,5
+Affordability,1,published_cost_best_available,Float64,1769,165,91.47,1722
+Affordability,2,published_cost_status,category,1934,0,100.0,2
+Affordability,3,published_cost_source,category,1934,0,100.0,3
+Affordability,4,published_cost_program_year_fallback_used,bool,1934,0,100.0,2
+Affordability,5,published_cost_comparability_note,string,1934,0,100.0,3
+Affordability,6,net_price_overall,Float64,1769,165,91.47,1714
+Affordability,7,net_price_overall_status,category,1934,0,100.0,2
+Affordability,8,net_price_overall_source,string,1934,0,100.0,4
+Affordability,9,net_price_income_0_30k,Float64,1729,205,89.4,1688
+Affordability,10,net_price_income_30_48k,Float64,1686,248,87.18,1625
+Affordability,11,net_price_income_48_75k,Float64,1666,268,86.14,1609
+Affordability,12,net_price_income_75_110k,Float64,1621,313,83.82,1572
+Affordability,13,net_price_income_over_110k,Float64,1558,376,80.56,1514
+Affordability,14,net_price_income_profile_status,category,1934,0,100.0,3
+Affordability,15,net_price_any_alternate_field_used,bool,1934,0,100.0,2
+Completion,1,completion_rate_150_display,Float64,1808,126,93.49,1443
+Completion,2,completion_rate_150_source,category,1934,0,100.0,3
+Completion,3,completion_rate_150_fallback_used,bool,1934,0,100.0,2
+Student debt,1,debt_median_completers,Float64,1742,192,90.07,711
+Student debt,2,debt_completers_status,category,1934,0,100.0,2
+Student debt,3,debt_completer_borrower_count,Int64,1760,174,91.0,1117
+Student debt,4,debt_borrower_count_context,category,1934,0,100.0,4
+Student debt,5,debt_monthly_payment_10yr,Float64,1718,216,88.83,700
+Post-college earnings,1,earnings_median_4yr_primary,Float64,1781,153,92.09,1602
+Post-college earnings,2,earnings_4yr_status,category,1934,0,100.0,2
+Post-college earnings,3,earnings_benchmark_state_hs,Float64,1916,18,99.07,33
+Post-college earnings,4,earnings_advantage_vs_state,Float64,1771,163,91.57,1646
+Post-college earnings,5,earnings_advantage_pct_vs_state,Float64,1771,163,91.57,1673
+Post-college earnings,6,earnings_vs_state_status,category,1934,0,100.0,3
+Post-college earnings,7,earnings_benchmark_national_hs,Float64,1918,16,99.17,1
+Post-college earnings,8,earnings_advantage_vs_national,Float64,1772,162,91.62,1602
+Post-college earnings,9,earnings_advantage_pct_vs_national,Float64,1772,162,91.62,1602
+Post-college earnings,10,earnings_vs_national_status,category,1934,0,100.0,3
+Socioeconomic access,1,pell_share_primary,Float64,1922,12,99.38,1596
+Socioeconomic access,2,pell_share_percent,Float64,1922,12,99.38,1596
+Socioeconomic access,3,pell_share_band,category,1922,12,99.38,5
+Socioeconomic access,4,pell_share_status,category,1934,0,100.0,2
+Socioeconomic access,5,pell_interpretation_note,string,1934,0,100.0,4
+Admissions and academic profile,1,admission_rate_primary,Float64,1585,349,81.95,1353
+Admissions and academic profile,2,admission_rate_percent,Float64,1585,349,81.95,1353
+Admissions and academic profile,3,admission_rate_band,string,1934,0,100.0,6
+Admissions and academic profile,4,admission_rate_band_order,Int64,1934,0,100.0,6
+Admissions and academic profile,5,admission_rate_status,string,1934,0,100.0,2
+Admissions and academic profile,6,admission_rate_reported_100_flag,boolean,1585,349,81.95,2
+Admissions and academic profile,7,admission_rate_interpretation_note,string,1934,0,100.0,2
+Admissions and academic profile,8,sat_average_context,Float64,1008,926,52.12,428
+Admissions and academic profile,9,sat_average_status,string,1934,0,100.0,2
+Admissions and academic profile,10,sat_interpretation_note,string,1934,0,100.0,2
+Admissions and academic profile,11,admissions_profile_availability,string,1934,0,100.0,3
